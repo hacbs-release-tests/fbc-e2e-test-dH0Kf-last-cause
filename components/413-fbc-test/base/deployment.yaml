@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: 413-fbc-test
     spec:
       containers:
-      - image: quay.io/scoheb/user-workload@sha256:cfc46073bd9744f6de5de058c7732c085c84b68ad8ccb044d816350ee966a54c
+      - image: quay.io/scoheb/user-workload@sha256:ae062483b2c8f48a74ee2c76b2664c8dd3b0efaae47cf65240767c667e8ca672
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
